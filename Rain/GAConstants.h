@@ -20,3 +20,6 @@ extern NSString * const MTLocationKeyCity;
 extern NSString * const MTLocationKeyCountry;
 extern NSString * const MTLocationKeyLatitude;
 extern NSString * const MTLocationKeyLongitude;
+extern NSString * const MTForecastAPIKey;
+extern NSString * const GAForecastURL;
+extern NSString * const GARainReachabilityStatusDidChangeNotification;

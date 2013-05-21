@@ -21,3 +21,7 @@ NSString * const MTLocationKeyCity = @"city";
 NSString * const MTLocationKeyCountry = @"country";
 NSString * const MTLocationKeyLatitude = @"latitude";
 NSString * const MTLocationKeyLongitude = @"longitude";
+NSString * const MTForecastAPIKey = @"xxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+NSString * const GAForecastURL = @"https://api.forecast.io/forecast/%@/";
+
+NSString * const GARainReachabilityStatusDidChangeNotification = @"it.giupo.GARainReachabilityStatusDidChangeNotification";

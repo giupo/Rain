@@ -7,6 +7,7 @@
 //
 
 #import "GAWeatherViewController.h"
+#import "GAForecastClient.h"
 
 @interface GAWeatherViewController () {
     BOOL _locationFound;
@@ -14,6 +15,10 @@
 
 @property (strong, nonatomic) NSDictionary *location;
 @property (strong, nonatomic) CLLocationManager *locationManager;
+
+@property (weak, nonatomic) IBOutlet UILabel *labelLocation;
+@property (weak, nonatomic) IBOutlet UIButton *buttonRefresh;
+
 
 @end
 
@@ -26,7 +31,12 @@
         self.locationManager = [[CLLocationManager alloc] init];
         self.locationManager.delegate = self;
         [self.locationManager setDesiredAccuracy:kCLLocationAccuracyKilometer];
+        NSNotificationCenter *nc = [NSNotificationCenter defaultCenter];
+        [nc addObserver:self selector:@selector(reachabilityStatusDidChange:)
+                                name:GARainReachabilityStatusDidChangeNotification object:nil];
         
+        [nc addObserver:self selector:@selector(applicationDidBecomeActive:)
+                   name:UIApplicationDidBecomeActiveNotification object:nil];
     }
     return self;
 }
@@ -115,6 +125,7 @@
         [[NSNotificationCenter defaultCenter] postNotification:notification];
         
         [self updateView];
+        [self fetchWeatherData];
     }
 }
 
@@ -122,5 +133,39 @@
     [self.labelLocation setText:[self.location objectForKey:MTLocationKeyCity]];
 }
 
+- (void)fetchWeatherData {
+    // Show Progress HUD
+    [SVProgressHUD showWithMaskType:SVProgressHUDMaskTypeGradient];
+    // Query Forecast API
+    double lat = [[_location objectForKey:MTLocationKeyLatitude] doubleValue];
+    double lng = [[_location objectForKey:MTLocationKeyLongitude] doubleValue];
+    [[GAForecastClient sharedClient] requestWeatherForCoordinate:CLLocationCoordinate2DMake(lat, lng) completion:^(BOOL success, NSDictionary *response) {
+        // Dismiss Progress HUD
+        [SVProgressHUD dismiss];
+        NSLog(@"Response > %@", response);
+    }];
+}
 
+- (void)dealloc {
+    // Remove Observer
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
+- (void)reachabilityStatusDidChange:(NSNotification *)notification {
+    GAForecastClient *forecastClient = [notification object];
+    NSLog(@"Reachability Status > %i", forecastClient.networkReachabilityStatus);
+    self.buttonRefresh.enabled = (forecastClient.networkReachabilityStatus != AFNetworkReachabilityStatusNotReachable);
+}
+
+- (void)applicationDidBecomeActive:(NSNotification *)notification {
+    if (self.location) {
+        [self fetchWeatherData];
+    }
+}
+
+- (IBAction)refresh:(id)sender {
+    if (self.location) {
+        [self fetchWeatherData];
+    }
+}
 @end

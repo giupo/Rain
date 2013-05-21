@@ -11,6 +11,4 @@
 
 @interface GAWeatherViewController : UIViewController
     <GALocationsViewControllerDelegate, CLLocationManagerDelegate>
-
-@property (weak, nonatomic) IBOutlet UILabel *labelLocation;
 @end
