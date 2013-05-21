@@ -7,14 +7,30 @@
 //
 
 #import "GAAppDelegate.h"
+#import "GAWeatherViewController.h"
+#import "GAForecastViewController.h"
+#import "GALocationsViewController.h"
+
+@interface GAAppDelegate ()
+@property (strong, nonatomic) IIViewDeckController *viewDeckController;
+@end
 
 @implementation GAAppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    GALocationsViewController *leftViewController = [[GALocationsViewController alloc] initWithNibName:@"GALocationsViewController" bundle:nil];
+    
+    GAForecastViewController *rightViewController = [[GAForecastViewController alloc] initWithNibName:@"GAForecastViewController" bundle:nil];
+    
+    GAWeatherViewController *centerViewController = [[GAWeatherViewController alloc] initWithNibName:@"GAWeatherViewController" bundle:nil];
+    
+    leftViewController.delegate = centerViewController;
+    
+    self.viewDeckController = [[IIViewDeckController alloc] initWithCenterViewController:centerViewController leftViewController:leftViewController rightViewController:rightViewController];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window setRootViewController:self.viewDeckController];
     [self.window makeKeyAndVisible];
     return YES;
 }

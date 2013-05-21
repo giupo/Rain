@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/IISideController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/IISideController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>IISideController.h</DeclaredIn>
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/IISideController/setConstrainedSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>IISideController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat constrainedSize</Declaration>
+			
+			
+			<Anchor>//api/name/constrainedSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/IISideController/constrainedSize</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>IISideController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat constrainedSize</Declaration>
+			
+			
+			<Anchor>//api/name/constrainedSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/IISideController/initWithViewController:constrained:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>IISideController.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithViewController:(UIViewController *)controller constrained:(CGFloat)constrainedSize</Declaration>
+			
+			
+			<Anchor>//api/name/initWithViewController:constrained:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/IISideController/shrinkSide</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>IISideController.h</DeclaredIn>			
+			
+			<Declaration>- (void)shrinkSide</Declaration>
+			
+			
+			<Anchor>//api/name/shrinkSide</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/IISideController/shrinkSideAnimated:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>IISideController.h</DeclaredIn>			
+			
+			<Declaration>- (void)shrinkSideAnimated:(BOOL)animated</Declaration>
+			
+			
+			<Anchor>//api/name/shrinkSideAnimated:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -16,6 +16,18 @@
 		30D7AB22174B6C16003C13B2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 30D7AB21174B6C16003C13B2 /* Default.png */; };
 		30D7AB24174B6C16003C13B2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30D7AB23174B6C16003C13B2 /* Default@2x.png */; };
 		30D7AB26174B6C16003C13B2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30D7AB25174B6C16003C13B2 /* Default-568h@2x.png */; };
+		30D7AB2D174B6E8E003C13B2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D7AB2C174B6E8E003C13B2 /* MobileCoreServices.framework */; };
+		30D7AB2F174B6E95003C13B2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D7AB2E174B6E95003C13B2 /* SystemConfiguration.framework */; };
+		30D7AB31174B6E9F003C13B2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D7AB30174B6E9F003C13B2 /* QuartzCore.framework */; };
+		30D7AB33174B6EA9003C13B2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D7AB32174B6EA9003C13B2 /* CoreLocation.framework */; };
+		30D7AB37174B70BD003C13B2 /* GAWeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D7AB35174B70BD003C13B2 /* GAWeatherViewController.m */; };
+		30D7AB38174B70BD003C13B2 /* GAWeatherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30D7AB36174B70BD003C13B2 /* GAWeatherViewController.xib */; };
+		30D7AB3C174B70E0003C13B2 /* GAForecastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D7AB3A174B70E0003C13B2 /* GAForecastViewController.m */; };
+		30D7AB3D174B70E0003C13B2 /* GAForecastViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30D7AB3B174B70E0003C13B2 /* GAForecastViewController.xib */; };
+		30D7AB41174B70EF003C13B2 /* GALocationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D7AB3F174B70EF003C13B2 /* GALocationsViewController.m */; };
+		30D7AB42174B70EF003C13B2 /* GALocationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30D7AB40174B70EF003C13B2 /* GALocationsViewController.xib */; };
+		30D7AB45174B78BD003C13B2 /* GAConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D7AB44174B78BD003C13B2 /* GAConstants.m */; };
+		E3C8AFA323BC4DF8BCB4D926 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6066E32A910642B1AC35C7A7 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +44,23 @@
 		30D7AB21174B6C16003C13B2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		30D7AB23174B6C16003C13B2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		30D7AB25174B6C16003C13B2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		30D7AB2C174B6E8E003C13B2 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		30D7AB2E174B6E95003C13B2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		30D7AB30174B6E9F003C13B2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		30D7AB32174B6EA9003C13B2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		30D7AB34174B70BD003C13B2 /* GAWeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAWeatherViewController.h; sourceTree = "<group>"; };
+		30D7AB35174B70BD003C13B2 /* GAWeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAWeatherViewController.m; sourceTree = "<group>"; };
+		30D7AB36174B70BD003C13B2 /* GAWeatherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GAWeatherViewController.xib; sourceTree = "<group>"; };
+		30D7AB39174B70E0003C13B2 /* GAForecastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAForecastViewController.h; sourceTree = "<group>"; };
+		30D7AB3A174B70E0003C13B2 /* GAForecastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAForecastViewController.m; sourceTree = "<group>"; };
+		30D7AB3B174B70E0003C13B2 /* GAForecastViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GAForecastViewController.xib; sourceTree = "<group>"; };
+		30D7AB3E174B70EF003C13B2 /* GALocationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GALocationsViewController.h; sourceTree = "<group>"; };
+		30D7AB3F174B70EF003C13B2 /* GALocationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GALocationsViewController.m; sourceTree = "<group>"; };
+		30D7AB40174B70EF003C13B2 /* GALocationsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GALocationsViewController.xib; sourceTree = "<group>"; };
+		30D7AB43174B78BD003C13B2 /* GAConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAConstants.h; sourceTree = "<group>"; };
+		30D7AB44174B78BD003C13B2 /* GAConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAConstants.m; sourceTree = "<group>"; };
+		38A3A018868A42348B47E890 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		6066E32A910642B1AC35C7A7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,9 +68,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30D7AB33174B6EA9003C13B2 /* CoreLocation.framework in Frameworks */,
+				30D7AB31174B6E9F003C13B2 /* QuartzCore.framework in Frameworks */,
+				30D7AB2F174B6E95003C13B2 /* SystemConfiguration.framework in Frameworks */,
+				30D7AB2D174B6E8E003C13B2 /* MobileCoreServices.framework in Frameworks */,
 				30D7AB10174B6C16003C13B2 /* UIKit.framework in Frameworks */,
 				30D7AB12174B6C16003C13B2 /* Foundation.framework in Frameworks */,
 				30D7AB14174B6C16003C13B2 /* CoreGraphics.framework in Frameworks */,
+				E3C8AFA323BC4DF8BCB4D926 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +88,7 @@
 				30D7AB15174B6C16003C13B2 /* Rain */,
 				30D7AB0E174B6C16003C13B2 /* Frameworks */,
 				30D7AB0D174B6C16003C13B2 /* Products */,
+				38A3A018868A42348B47E890 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,9 +103,14 @@
 		30D7AB0E174B6C16003C13B2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				30D7AB32174B6EA9003C13B2 /* CoreLocation.framework */,
+				30D7AB30174B6E9F003C13B2 /* QuartzCore.framework */,
+				30D7AB2E174B6E95003C13B2 /* SystemConfiguration.framework */,
+				30D7AB2C174B6E8E003C13B2 /* MobileCoreServices.framework */,
 				30D7AB0F174B6C16003C13B2 /* UIKit.framework */,
 				30D7AB11174B6C16003C13B2 /* Foundation.framework */,
 				30D7AB13174B6C16003C13B2 /* CoreGraphics.framework */,
+				6066E32A910642B1AC35C7A7 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -78,6 +118,17 @@
 		30D7AB15174B6C16003C13B2 /* Rain */ = {
 			isa = PBXGroup;
 			children = (
+				30D7AB34174B70BD003C13B2 /* GAWeatherViewController.h */,
+				30D7AB35174B70BD003C13B2 /* GAWeatherViewController.m */,
+				30D7AB36174B70BD003C13B2 /* GAWeatherViewController.xib */,
+				30D7AB39174B70E0003C13B2 /* GAForecastViewController.h */,
+				30D7AB3A174B70E0003C13B2 /* GAForecastViewController.m */,
+				30D7AB3B174B70E0003C13B2 /* GAForecastViewController.xib */,
+				30D7AB3E174B70EF003C13B2 /* GALocationsViewController.h */,
+				30D7AB3F174B70EF003C13B2 /* GALocationsViewController.m */,
+				30D7AB43174B78BD003C13B2 /* GAConstants.h */,
+				30D7AB44174B78BD003C13B2 /* GAConstants.m */,
+				30D7AB40174B70EF003C13B2 /* GALocationsViewController.xib */,
 				30D7AB1E174B6C16003C13B2 /* GAAppDelegate.h */,
 				30D7AB1F174B6C16003C13B2 /* GAAppDelegate.m */,
 				30D7AB16174B6C16003C13B2 /* Supporting Files */,
@@ -106,9 +157,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30D7AB29174B6C16003C13B2 /* Build configuration list for PBXNativeTarget "Rain" */;
 			buildPhases = (
+				DAAC98C36A8249BFAB8DC9C5 /* Check Pods Manifest.lock */,
 				30D7AB08174B6C16003C13B2 /* Sources */,
 				30D7AB09174B6C16003C13B2 /* Frameworks */,
 				30D7AB0A174B6C16003C13B2 /* Resources */,
+				E2814462B1844B38B29ED439 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,10 +208,44 @@
 				30D7AB22174B6C16003C13B2 /* Default.png in Resources */,
 				30D7AB24174B6C16003C13B2 /* Default@2x.png in Resources */,
 				30D7AB26174B6C16003C13B2 /* Default-568h@2x.png in Resources */,
+				30D7AB38174B70BD003C13B2 /* GAWeatherViewController.xib in Resources */,
+				30D7AB3D174B70E0003C13B2 /* GAForecastViewController.xib in Resources */,
+				30D7AB42174B70EF003C13B2 /* GALocationsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DAAC98C36A8249BFAB8DC9C5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		E2814462B1844B38B29ED439 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		30D7AB08174B6C16003C13B2 /* Sources */ = {
@@ -167,6 +254,10 @@
 			files = (
 				30D7AB1C174B6C16003C13B2 /* main.m in Sources */,
 				30D7AB20174B6C16003C13B2 /* GAAppDelegate.m in Sources */,
+				30D7AB37174B70BD003C13B2 /* GAWeatherViewController.m in Sources */,
+				30D7AB3C174B70E0003C13B2 /* GAForecastViewController.m in Sources */,
+				30D7AB41174B70EF003C13B2 /* GALocationsViewController.m in Sources */,
+				30D7AB45174B78BD003C13B2 /* GAConstants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +333,7 @@
 		};
 		30D7AB2A174B6C16003C13B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38A3A018868A42348B47E890 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Rain/Rain-Prefix.pch";
@@ -253,6 +345,7 @@
 		};
 		30D7AB2B174B6C16003C13B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38A3A018868A42348B47E890 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Rain/Rain-Prefix.pch";
@@ -281,6 +374,7 @@
 				30D7AB2B174B6C16003C13B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
