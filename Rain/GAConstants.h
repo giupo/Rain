@@ -23,3 +23,11 @@ extern NSString * const MTLocationKeyLongitude;
 extern NSString * const MTForecastAPIKey;
 extern NSString * const GAForecastURL;
 extern NSString * const GARainReachabilityStatusDidChangeNotification;
+extern NSString * const GARainWeatherDataDidChangeChangeNotification;
+extern NSString * const GARainTemperatureUnitDidChangeNotification;
+extern NSString * const GARainUserDefaultsTemperatureUnit;
+
+
+#define kMTColorGray [UIColor colorWithRed:0.737 green:0.737 blue:0.737 alpha:1.0]
+#define kMTColorGreen [UIColor colorWithRed:0.325 green:0.573 blue:0.388 alpha:1.0]
+#define kMTColorOrange [UIColor colorWithRed:1.000 green:0.306 blue:0.373 alpha:1.0]

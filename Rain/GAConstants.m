@@ -21,7 +21,11 @@ NSString * const MTLocationKeyCity = @"city";
 NSString * const MTLocationKeyCountry = @"country";
 NSString * const MTLocationKeyLatitude = @"latitude";
 NSString * const MTLocationKeyLongitude = @"longitude";
-NSString * const MTForecastAPIKey = @"xxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+NSString * const MTForecastAPIKey = @"08ae2eba52c85e25d178531aace23d87";
 NSString * const GAForecastURL = @"https://api.forecast.io/forecast/%@/";
 
 NSString * const GARainReachabilityStatusDidChangeNotification = @"it.giupo.GARainReachabilityStatusDidChangeNotification";
+NSString * const GARainWeatherDataDidChangeChangeNotification = @"it.giupo.GARainWeatherDataDidChangeChangeNotification";
+NSString * const GARainTemperatureUnitDidChangeNotification = @"it.giupo.GARainTemperatureUnitDidChangeNotification";
+
+NSString * const GARainUserDefaultsTemperatureUnit = @"temperatureUnit";

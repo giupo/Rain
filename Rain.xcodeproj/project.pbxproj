@@ -7,6 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30CF63E017627A5D00AA50FD /* background-add-location-cell.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF63C517627A5D00AA50FD /* background-add-location-cell.png */; };
+		30CF63E117627A5D00AA50FD /* background-add-location-cell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF63C617627A5D00AA50FD /* background-add-location-cell@2x.png */; };
+		30CF63E217627A5D00AA50FD /* background-calendar-day-cell.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF63C717627A5D00AA50FD /* background-calendar-day-cell.png */; };
+		30CF63E317627A5D00AA50FD /* background-calendar-day-cell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF63C817627A5D00AA50FD /* background-calendar-day-cell@2x.png */; };
+		30CF63E417627A5D00AA50FD /* background-center.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF63C917627A5D00AA50FD /* background-center.png */; };
+		30CF63E517627A5D00AA50FD /* background-center@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF63CA17627A5D00AA50FD /* background-center@2x.png */; };
+		30CF63E617627A5D00AA50FD /* background-hour-cell.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF63CB17627A5D00AA50FD /* background-hour-cell.png */; };
+		30CF63E717627A5D00AA50FD /* background-hour-cell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF63CC17627A5D00AA50FD /* background-hour-cell@2x.png */; };
+		30CF63E817627A5D00AA50FD /* background-location-cell.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF63CD17627A5D00AA50FD /* background-location-cell.png */; };
+		30CF63E917627A5D00AA50FD /* background-location-cell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF63CE17627A5D00AA50FD /* background-location-cell@2x.png */; };
+		30CF63EA17627A5D00AA50FD /* button-delete-location-cell.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF63CF17627A5D00AA50FD /* button-delete-location-cell.png */; };
+		30CF63EB17627A5D00AA50FD /* button-delete-location-cell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF63D017627A5D00AA50FD /* button-delete-location-cell@2x.png */; };
+		30CF63EC17627A5D00AA50FD /* button-location-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF63D117627A5D00AA50FD /* button-location-normal.png */; };
+		30CF63ED17627A5D00AA50FD /* button-location-normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF63D217627A5D00AA50FD /* button-location-normal@2x.png */; };
+		30CF63EE17627A5D00AA50FD /* button-refresh-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF63D317627A5D00AA50FD /* button-refresh-normal.png */; };
+		30CF63EF17627A5D00AA50FD /* button-refresh-normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF63D417627A5D00AA50FD /* button-refresh-normal@2x.png */; };
+		30CF63F017627A5D00AA50FD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF63D517627A5D00AA50FD /* Default-568h@2x.png */; };
+		30CF63F117627A5D00AA50FD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF63D617627A5D00AA50FD /* Default.png */; };
+		30CF63F217627A5D00AA50FD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF63D717627A5D00AA50FD /* Default@2x.png */; };
+		30CF63F317627A5D00AA50FD /* icon-add-location.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF63D817627A5D00AA50FD /* icon-add-location.png */; };
+		30CF63F417627A5D00AA50FD /* icon-add-location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF63D917627A5D00AA50FD /* icon-add-location@2x.png */; };
+		30CF63F517627A5D00AA50FD /* icon-clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF63DA17627A5D00AA50FD /* icon-clock.png */; };
+		30CF63F617627A5D00AA50FD /* icon-clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF63DB17627A5D00AA50FD /* icon-clock@2x.png */; };
+		30CF63F717627A5D00AA50FD /* icon-rain.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF63DC17627A5D00AA50FD /* icon-rain.png */; };
+		30CF63F817627A5D00AA50FD /* icon-rain@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF63DD17627A5D00AA50FD /* icon-rain@2x.png */; };
+		30CF63F917627A5D00AA50FD /* icon-wind.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF63DE17627A5D00AA50FD /* icon-wind.png */; };
+		30CF63FA17627A5D00AA50FD /* icon-wind@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF63DF17627A5D00AA50FD /* icon-wind@2x.png */; };
+		30CF63FD176280D000AA50FD /* NSUserDefaults+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CF63FC176280D000AA50FD /* NSUserDefaults+Helpers.m */; };
+		30CF64001762816100AA50FD /* GASettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CF63FF1762816100AA50FD /* GASettings.m */; };
+		30CF64031762872F00AA50FD /* GAHourCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CF64021762872F00AA50FD /* GAHourCell.m */; };
+		30CF6406176291E600AA50FD /* GADayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CF6405176291E600AA50FD /* GADayCell.m */; };
+		30CF6409176294AF00AA50FD /* GALocationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CF6408176294AE00AA50FD /* GALocationCell.m */; };
 		30D7AB10174B6C16003C13B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D7AB0F174B6C16003C13B2 /* UIKit.framework */; };
 		30D7AB12174B6C16003C13B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D7AB11174B6C16003C13B2 /* Foundation.framework */; };
 		30D7AB14174B6C16003C13B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D7AB13174B6C16003C13B2 /* CoreGraphics.framework */; };
@@ -32,6 +64,43 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30CF63C517627A5D00AA50FD /* background-add-location-cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-add-location-cell.png"; sourceTree = "<group>"; };
+		30CF63C617627A5D00AA50FD /* background-add-location-cell@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-add-location-cell@2x.png"; sourceTree = "<group>"; };
+		30CF63C717627A5D00AA50FD /* background-calendar-day-cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-calendar-day-cell.png"; sourceTree = "<group>"; };
+		30CF63C817627A5D00AA50FD /* background-calendar-day-cell@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-calendar-day-cell@2x.png"; sourceTree = "<group>"; };
+		30CF63C917627A5D00AA50FD /* background-center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-center.png"; sourceTree = "<group>"; };
+		30CF63CA17627A5D00AA50FD /* background-center@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-center@2x.png"; sourceTree = "<group>"; };
+		30CF63CB17627A5D00AA50FD /* background-hour-cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-hour-cell.png"; sourceTree = "<group>"; };
+		30CF63CC17627A5D00AA50FD /* background-hour-cell@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-hour-cell@2x.png"; sourceTree = "<group>"; };
+		30CF63CD17627A5D00AA50FD /* background-location-cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-location-cell.png"; sourceTree = "<group>"; };
+		30CF63CE17627A5D00AA50FD /* background-location-cell@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-location-cell@2x.png"; sourceTree = "<group>"; };
+		30CF63CF17627A5D00AA50FD /* button-delete-location-cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-delete-location-cell.png"; sourceTree = "<group>"; };
+		30CF63D017627A5D00AA50FD /* button-delete-location-cell@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-delete-location-cell@2x.png"; sourceTree = "<group>"; };
+		30CF63D117627A5D00AA50FD /* button-location-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-location-normal.png"; sourceTree = "<group>"; };
+		30CF63D217627A5D00AA50FD /* button-location-normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-location-normal@2x.png"; sourceTree = "<group>"; };
+		30CF63D317627A5D00AA50FD /* button-refresh-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-refresh-normal.png"; sourceTree = "<group>"; };
+		30CF63D417627A5D00AA50FD /* button-refresh-normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-refresh-normal@2x.png"; sourceTree = "<group>"; };
+		30CF63D517627A5D00AA50FD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		30CF63D617627A5D00AA50FD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		30CF63D717627A5D00AA50FD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		30CF63D817627A5D00AA50FD /* icon-add-location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-add-location.png"; sourceTree = "<group>"; };
+		30CF63D917627A5D00AA50FD /* icon-add-location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-add-location@2x.png"; sourceTree = "<group>"; };
+		30CF63DA17627A5D00AA50FD /* icon-clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-clock.png"; sourceTree = "<group>"; };
+		30CF63DB17627A5D00AA50FD /* icon-clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-clock@2x.png"; sourceTree = "<group>"; };
+		30CF63DC17627A5D00AA50FD /* icon-rain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-rain.png"; sourceTree = "<group>"; };
+		30CF63DD17627A5D00AA50FD /* icon-rain@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-rain@2x.png"; sourceTree = "<group>"; };
+		30CF63DE17627A5D00AA50FD /* icon-wind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-wind.png"; sourceTree = "<group>"; };
+		30CF63DF17627A5D00AA50FD /* icon-wind@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-wind@2x.png"; sourceTree = "<group>"; };
+		30CF63FB176280D000AA50FD /* NSUserDefaults+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+Helpers.h"; sourceTree = "<group>"; };
+		30CF63FC176280D000AA50FD /* NSUserDefaults+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+Helpers.m"; sourceTree = "<group>"; };
+		30CF63FE1762816000AA50FD /* GASettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GASettings.h; sourceTree = "<group>"; };
+		30CF63FF1762816100AA50FD /* GASettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GASettings.m; sourceTree = "<group>"; };
+		30CF64011762872F00AA50FD /* GAHourCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAHourCell.h; sourceTree = "<group>"; };
+		30CF64021762872F00AA50FD /* GAHourCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAHourCell.m; sourceTree = "<group>"; };
+		30CF6404176291E600AA50FD /* GADayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADayCell.h; sourceTree = "<group>"; };
+		30CF6405176291E600AA50FD /* GADayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GADayCell.m; sourceTree = "<group>"; };
+		30CF6407176294AE00AA50FD /* GALocationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GALocationCell.h; sourceTree = "<group>"; };
+		30CF6408176294AE00AA50FD /* GALocationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GALocationCell.m; sourceTree = "<group>"; };
 		30D7AB0C174B6C16003C13B2 /* Rain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30D7AB0F174B6C16003C13B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		30D7AB11174B6C16003C13B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -85,9 +154,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30CF63C417627A5D00AA50FD /* Artwork */ = {
+			isa = PBXGroup;
+			children = (
+				30CF63C517627A5D00AA50FD /* background-add-location-cell.png */,
+				30CF63C617627A5D00AA50FD /* background-add-location-cell@2x.png */,
+				30CF63C717627A5D00AA50FD /* background-calendar-day-cell.png */,
+				30CF63C817627A5D00AA50FD /* background-calendar-day-cell@2x.png */,
+				30CF63C917627A5D00AA50FD /* background-center.png */,
+				30CF63CA17627A5D00AA50FD /* background-center@2x.png */,
+				30CF63CB17627A5D00AA50FD /* background-hour-cell.png */,
+				30CF63CC17627A5D00AA50FD /* background-hour-cell@2x.png */,
+				30CF63CD17627A5D00AA50FD /* background-location-cell.png */,
+				30CF63CE17627A5D00AA50FD /* background-location-cell@2x.png */,
+				30CF63CF17627A5D00AA50FD /* button-delete-location-cell.png */,
+				30CF63D017627A5D00AA50FD /* button-delete-location-cell@2x.png */,
+				30CF63D117627A5D00AA50FD /* button-location-normal.png */,
+				30CF63D217627A5D00AA50FD /* button-location-normal@2x.png */,
+				30CF63D317627A5D00AA50FD /* button-refresh-normal.png */,
+				30CF63D417627A5D00AA50FD /* button-refresh-normal@2x.png */,
+				30CF63D517627A5D00AA50FD /* Default-568h@2x.png */,
+				30CF63D617627A5D00AA50FD /* Default.png */,
+				30CF63D717627A5D00AA50FD /* Default@2x.png */,
+				30CF63D817627A5D00AA50FD /* icon-add-location.png */,
+				30CF63D917627A5D00AA50FD /* icon-add-location@2x.png */,
+				30CF63DA17627A5D00AA50FD /* icon-clock.png */,
+				30CF63DB17627A5D00AA50FD /* icon-clock@2x.png */,
+				30CF63DC17627A5D00AA50FD /* icon-rain.png */,
+				30CF63DD17627A5D00AA50FD /* icon-rain@2x.png */,
+				30CF63DE17627A5D00AA50FD /* icon-wind.png */,
+				30CF63DF17627A5D00AA50FD /* icon-wind@2x.png */,
+			);
+			path = Artwork;
+			sourceTree = "<group>";
+		};
 		30D7AB03174B6C16003C13B2 = {
 			isa = PBXGroup;
 			children = (
+				30CF63C417627A5D00AA50FD /* Artwork */,
 				30D7AB15174B6C16003C13B2 /* Rain */,
 				30D7AB0E174B6C16003C13B2 /* Frameworks */,
 				30D7AB0D174B6C16003C13B2 /* Products */,
@@ -129,14 +233,24 @@
 				30D7AB3B174B70E0003C13B2 /* GAForecastViewController.xib */,
 				30D7AB3E174B70EF003C13B2 /* GALocationsViewController.h */,
 				30D7AB3F174B70EF003C13B2 /* GALocationsViewController.m */,
+				30D7AB40174B70EF003C13B2 /* GALocationsViewController.xib */,
 				30D7AB43174B78BD003C13B2 /* GAConstants.h */,
 				30D7AB44174B78BD003C13B2 /* GAConstants.m */,
-				30D7AB40174B70EF003C13B2 /* GALocationsViewController.xib */,
 				30D7AB1E174B6C16003C13B2 /* GAAppDelegate.h */,
 				30D7AB1F174B6C16003C13B2 /* GAAppDelegate.m */,
 				30D7AB4A174BC859003C13B2 /* GAForecastClient.h */,
 				30D7AB4B174BC859003C13B2 /* GAForecastClient.m */,
 				30D7AB16174B6C16003C13B2 /* Supporting Files */,
+				30CF63FB176280D000AA50FD /* NSUserDefaults+Helpers.h */,
+				30CF63FC176280D000AA50FD /* NSUserDefaults+Helpers.m */,
+				30CF63FE1762816000AA50FD /* GASettings.h */,
+				30CF63FF1762816100AA50FD /* GASettings.m */,
+				30CF64011762872F00AA50FD /* GAHourCell.h */,
+				30CF64021762872F00AA50FD /* GAHourCell.m */,
+				30CF6404176291E600AA50FD /* GADayCell.h */,
+				30CF6405176291E600AA50FD /* GADayCell.m */,
+				30CF6407176294AE00AA50FD /* GALocationCell.h */,
+				30CF6408176294AE00AA50FD /* GALocationCell.m */,
 			);
 			path = Rain;
 			sourceTree = "<group>";
@@ -216,6 +330,33 @@
 				30D7AB38174B70BD003C13B2 /* GAWeatherViewController.xib in Resources */,
 				30D7AB3D174B70E0003C13B2 /* GAForecastViewController.xib in Resources */,
 				30D7AB42174B70EF003C13B2 /* GALocationsViewController.xib in Resources */,
+				30CF63E017627A5D00AA50FD /* background-add-location-cell.png in Resources */,
+				30CF63E117627A5D00AA50FD /* background-add-location-cell@2x.png in Resources */,
+				30CF63E217627A5D00AA50FD /* background-calendar-day-cell.png in Resources */,
+				30CF63E317627A5D00AA50FD /* background-calendar-day-cell@2x.png in Resources */,
+				30CF63E417627A5D00AA50FD /* background-center.png in Resources */,
+				30CF63E517627A5D00AA50FD /* background-center@2x.png in Resources */,
+				30CF63E617627A5D00AA50FD /* background-hour-cell.png in Resources */,
+				30CF63E717627A5D00AA50FD /* background-hour-cell@2x.png in Resources */,
+				30CF63E817627A5D00AA50FD /* background-location-cell.png in Resources */,
+				30CF63E917627A5D00AA50FD /* background-location-cell@2x.png in Resources */,
+				30CF63EA17627A5D00AA50FD /* button-delete-location-cell.png in Resources */,
+				30CF63EB17627A5D00AA50FD /* button-delete-location-cell@2x.png in Resources */,
+				30CF63EC17627A5D00AA50FD /* button-location-normal.png in Resources */,
+				30CF63ED17627A5D00AA50FD /* button-location-normal@2x.png in Resources */,
+				30CF63EE17627A5D00AA50FD /* button-refresh-normal.png in Resources */,
+				30CF63EF17627A5D00AA50FD /* button-refresh-normal@2x.png in Resources */,
+				30CF63F017627A5D00AA50FD /* Default-568h@2x.png in Resources */,
+				30CF63F117627A5D00AA50FD /* Default.png in Resources */,
+				30CF63F217627A5D00AA50FD /* Default@2x.png in Resources */,
+				30CF63F317627A5D00AA50FD /* icon-add-location.png in Resources */,
+				30CF63F417627A5D00AA50FD /* icon-add-location@2x.png in Resources */,
+				30CF63F517627A5D00AA50FD /* icon-clock.png in Resources */,
+				30CF63F617627A5D00AA50FD /* icon-clock@2x.png in Resources */,
+				30CF63F717627A5D00AA50FD /* icon-rain.png in Resources */,
+				30CF63F817627A5D00AA50FD /* icon-rain@2x.png in Resources */,
+				30CF63F917627A5D00AA50FD /* icon-wind.png in Resources */,
+				30CF63FA17627A5D00AA50FD /* icon-wind@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +405,11 @@
 				30D7AB41174B70EF003C13B2 /* GALocationsViewController.m in Sources */,
 				30D7AB45174B78BD003C13B2 /* GAConstants.m in Sources */,
 				30D7AB4C174BC859003C13B2 /* GAForecastClient.m in Sources */,
+				30CF63FD176280D000AA50FD /* NSUserDefaults+Helpers.m in Sources */,
+				30CF64001762816100AA50FD /* GASettings.m in Sources */,
+				30CF64031762872F00AA50FD /* GAHourCell.m in Sources */,
+				30CF6406176291E600AA50FD /* GADayCell.m in Sources */,
+				30CF6409176294AF00AA50FD /* GALocationCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
